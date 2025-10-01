@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CafObserver", "CafObserver\CafObserver.csproj", "{F1010A8A-2480-4B51-9BD5-9AE28EDBF217}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CafObserver.API", "CafObserver\CafObserver.API.csproj", "{F1010A8A-2480-4B51-9BD5-9AE28EDBF217}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CafObserver.Application", "CafObserver.Application\CafObserver.Application.csproj", "{90808A0C-0C08-432C-B7FD-87F5E52C224B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CafObserver.Infrastructure", "CafObserver.Infrastructure\CafObserver.Infrastructure.csproj", "{868C5C5E-5143-4D2A-AF7E-CFB8D9577232}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CafObserver.Domain", "CafObserver.Domain\CafObserver.Domain.csproj", "{2E56068F-B6CA-458E-B7C0-3E3A436BBA41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{F1010A8A-2480-4B51-9BD5-9AE28EDBF217}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1010A8A-2480-4B51-9BD5-9AE28EDBF217}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1010A8A-2480-4B51-9BD5-9AE28EDBF217}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90808A0C-0C08-432C-B7FD-87F5E52C224B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90808A0C-0C08-432C-B7FD-87F5E52C224B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90808A0C-0C08-432C-B7FD-87F5E52C224B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90808A0C-0C08-432C-B7FD-87F5E52C224B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{868C5C5E-5143-4D2A-AF7E-CFB8D9577232}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{868C5C5E-5143-4D2A-AF7E-CFB8D9577232}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{868C5C5E-5143-4D2A-AF7E-CFB8D9577232}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{868C5C5E-5143-4D2A-AF7E-CFB8D9577232}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E56068F-B6CA-458E-B7C0-3E3A436BBA41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E56068F-B6CA-458E-B7C0-3E3A436BBA41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E56068F-B6CA-458E-B7C0-3E3A436BBA41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E56068F-B6CA-458E-B7C0-3E3A436BBA41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
